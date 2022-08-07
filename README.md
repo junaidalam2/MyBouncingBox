@@ -6,12 +6,7 @@ A box moves diagonally accross the screen and bouces when it reaches the boundar
 
 ## Screenshot
 
-![Screenshot](/screeshot.jpg?raw=true "Screenshot+Here")
-
-
-## Demo
-
-[Link to My Bouncing Box](index.html)
+![Screenshot](/https://github.com/junaidalam2/MyBouncingBox/blob/main/screenshot.jpg?raw=true "Screenshot+Here")
 
 
 ## Tech Stack
