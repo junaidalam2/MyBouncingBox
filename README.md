@@ -6,7 +6,7 @@ A box moves diagonally accross the screen and bouces when it reaches the boundar
 
 ## Screenshot
 
-![Screenshot](/https://github.com/junaidalam2/MyBouncingBox/blob/main/screenshot.jpg?raw=true "Screenshot+Here")
+![Screenshot](https://github.com/junaidalam2/MyBouncingBox/blob/main/screenshot.jpg?raw=true "Screenshot+Here")
 
 
 ## Tech Stack
@@ -15,7 +15,7 @@ A box moves diagonally accross the screen and bouces when it reaches the boundar
 
 
 ## Installation
-No instalation required. Javascript will function in any standard internet browser.
+No installation required. Javascript will function in any standard internet browser.
 ## Author
 
 - [@junaidalam2](https://github.com/junaidalam2)
