@@ -1,0 +1,42 @@
+<html>
+
+<html style='background-color: black'>
+  <div id="my_bouncing_box" style= "background-color: blue; border-radius: 3px; position: absolute; left: 0px; top: 0px; min-width: 100px; min-height: 100px; text-align: center; font-weight: bold; color: #999;" >Bounce it!</div>
+
+ 	<script>
+		const maxheight = window.innerHeight - 100;  //screen height less box height
+		const maxwidth = window.innerWidth - 100;  //screen width less box width
+
+		function move() {
+	        var poex = 0;  // poex = position of element on x-axis
+	        var poey = 0;  // poey = position of element on y-axis
+			var xdir = -1;  // 1 is moving right, -1 is moving left -> because start position = 0, set at -1 to be switched to 1
+			var ydir = -1;  // 1 is moving down, -1 is moving up -> because start position = 0, set at -1 to be switched to 1
+			
+			var animation = setInterval(moveBox, 5);
+			
+			// function to determine the direction and movement of the box
+			function moveBox() {  
+				
+			// bounce conditions: once boundaries are reached, reverse direction
+			if (poex == maxwidth || poex == 0) {
+				xdir = xdir*-1;
+			};
+			if (poey == maxheight || poey == 0) {
+				ydir = ydir*-1;
+			};  
+
+			// move the box based on direction above
+			poex += xdir;
+			poey += ydir;
+
+			document.getElementById("my_bouncing_box").style.left = poex;
+			document.getElementById("my_bouncing_box").style.top = poey;	
+			};
+		};
+  
+		move();	
+		
+  	</script>
+</html>
+                
